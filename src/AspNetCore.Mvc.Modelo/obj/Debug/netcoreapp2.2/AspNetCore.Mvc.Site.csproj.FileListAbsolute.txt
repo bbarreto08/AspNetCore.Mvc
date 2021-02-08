@@ -44,7 +44,6 @@ D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\A
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.csprojAssemblyReference.cache
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.AssemblyInfoInputs.cache
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.AssemblyInfo.cs
-D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.csproj.CoreCompileInputs.cache
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.RazorAssemblyInfo.cache
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.RazorAssemblyInfo.cs
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.TagHelpers.input.cache
@@ -61,3 +60,5 @@ D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\A
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.pdb
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.genruntimeconfig.cache
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.csproj.CopyComplete
+D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.csproj.CoreCompileInputs.cache
+D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\Razor\Areas\Produtos\Views\Cadastro\Index.cshtml.g.cs
