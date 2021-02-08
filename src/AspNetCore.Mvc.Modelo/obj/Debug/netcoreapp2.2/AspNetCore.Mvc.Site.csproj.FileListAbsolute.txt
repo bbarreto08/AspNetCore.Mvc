@@ -6,7 +6,6 @@ C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\AspNetCo
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.runtimeconfig.dev.json
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.dll
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.pdb
-C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.csprojAssemblyReference.cache
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.AssemblyInfoInputs.cache
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.AssemblyInfo.cs
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.csproj.CoreCompileInputs.cache
@@ -25,3 +24,8 @@ C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\Razor\Vi
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.RazorTargetAssemblyInfo.cs
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.Views.pdb
 C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.csproj.CopyComplete
+C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\libman.json
+C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\bundleconfig.json

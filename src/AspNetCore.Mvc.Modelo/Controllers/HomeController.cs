@@ -12,7 +12,7 @@ namespace AspNetCore.Mvc.Site.Controllers
         {
             return View();
 
-            -- ferramenta de front-end
+            
         }
     }
 }
