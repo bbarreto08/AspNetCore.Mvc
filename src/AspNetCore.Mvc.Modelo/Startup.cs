@@ -16,7 +16,7 @@ namespace AspNetCore.Mvc.Modelo
 {
     public class Startup
     {
-        public IConfiguration _configuration { get; };
+        public IConfiguration _configuration { get; }
 
         public Startup(IConfiguration configuration)
         {

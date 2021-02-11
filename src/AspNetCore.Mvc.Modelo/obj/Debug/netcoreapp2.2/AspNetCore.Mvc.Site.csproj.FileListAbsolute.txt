@@ -32,7 +32,6 @@ C:\Git\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\bundleco
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\appsettings.Development.json
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\appsettings.json
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\libman.json
-D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\bundleconfig.json
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.deps.json
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\bin\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.runtimeconfig.json
@@ -65,3 +64,4 @@ D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\R
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\Razor\Modulos\Produtos\Views\Cadastro\Busca.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\Razor\Modulos\Vendas\Views\Pedidos\Index.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\Razor\Modulos\Vendas\Views\_ViewStart.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc\src\AspNetCore.Mvc.Modelo\obj\Debug\netcoreapp2.2\AspNetCore.Mvc.Site.csproj.CoreCompileInputs.cache

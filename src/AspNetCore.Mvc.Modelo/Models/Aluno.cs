@@ -11,7 +11,6 @@ namespace AspNetCore.Mvc.Site.Models
         public string Nome { get; set; }
         public string Email { get; set; }
         public DateTime DataNascimento { get; set; }
-
         public Aluno()
         {
             Id = Guid.NewGuid();

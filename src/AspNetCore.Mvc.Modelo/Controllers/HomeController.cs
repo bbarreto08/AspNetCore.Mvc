@@ -43,7 +43,7 @@ namespace AspNetCore.Mvc.Site.Controllers
             _context.Remove(aluno);
             _context.SaveChanges();
 
-            return View();            
+            return View("_Layout");            
         }
     }
 }
