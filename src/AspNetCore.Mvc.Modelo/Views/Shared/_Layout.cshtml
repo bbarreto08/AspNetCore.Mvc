@@ -35,7 +35,11 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="Produtos" asp-controller="Cadastro" asp-action="Index">Cadastro</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Vendas" asp-controller="Pedidos" asp-action="Index">Pedidos</a>
                         </li>
                     </ul>
                 </div>
@@ -51,12 +55,14 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            Rodapé
+            Aplicação de Estudos - <email email-domain="dominioParametrizado.com">bruno</email>
+            -
+            Email Padrão - <email>suporte</email>
         </div>
     </footer>
 
     <environment include="Development">
-        <script href="~/js/site_bundle.min.js"></script>
+        <script src="~/js/site_bundle.min.js"></script>
         <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>        
     </environment>
 
