@@ -9,12 +9,20 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace AspNetCore.Mvc.Modelo
 {
     public class Startup
     {
+        public IConfiguration _configuration { get; };
+
+        public Startup(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
@@ -27,7 +35,7 @@ namespace AspNetCore.Mvc.Modelo
                 options.AreaViewLocationFormats.Add("/Views/Shared/{0}.cshtml");
             });
 
-            services.AddDbContext<MeuDbContext>(options => options.UseSqlServer(""));
+            services.AddDbContext<MeuDbContext>(options => options.UseSqlServer(_configuration.GetConnectionString("MeuDbContext")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
