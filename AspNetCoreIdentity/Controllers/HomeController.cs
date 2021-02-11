@@ -29,6 +29,12 @@ namespace AspNetCoreIdentity.Controllers
             return View();
         }
 
+        [Authorize(Policy = "PodeExecutar")]
+        public IActionResult SecretClaim()
+        {
+            return View("Secret");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

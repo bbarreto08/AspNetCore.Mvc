@@ -44,6 +44,10 @@ namespace AspNetCoreIdentity
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<AspNetCoreIdentityContext>();
 
+            services.AddAuthorization(options => {
+                options.AddPolicy("PodeExecutar", policy => policy.RequireClaim("PodeExecutar"));
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
