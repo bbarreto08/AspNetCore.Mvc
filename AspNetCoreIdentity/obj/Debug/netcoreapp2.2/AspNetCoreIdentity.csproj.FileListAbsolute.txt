@@ -41,3 +41,4 @@ D:\GitPessoal\AspNetCore.Mvc\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\Razor\Vi
 D:\GitPessoal\AspNetCore.Mvc\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\Razor\Views\Home\Secret.cshtml.g.cs
