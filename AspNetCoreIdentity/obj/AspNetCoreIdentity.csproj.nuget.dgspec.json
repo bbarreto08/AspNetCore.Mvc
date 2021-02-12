@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj": {}
+    "D:\\GitPessoal\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj": {}
   },
   "projects": {
-    "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj": {
+    "D:\\GitPessoal\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
+        "projectUniqueName": "D:\\GitPessoal\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
         "projectName": "AspNetCoreIdentity",
-        "projectPath": "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
-        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\obj\\",
+        "projectPath": "D:\\GitPessoal\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
+        "packagesPath": "C:\\Users\\Estudos\\.nuget\\packages\\",
+        "outputPath": "D:\\GitPessoal\\AspNetCore.Mvc\\AspNetCoreIdentity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Estudos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.AspNetCore": {
               "target": "Package",
@@ -115,7 +117,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
