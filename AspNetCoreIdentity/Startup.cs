@@ -1,4 +1,6 @@
 ﻿using AspNetCoreIdentity.Areas.Identity.Data;
+using AspNetCoreIdentity.Extensions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -46,7 +48,12 @@ namespace AspNetCoreIdentity
 
             services.AddAuthorization(options => {
                 options.AddPolicy("PodeExecutar", policy => policy.RequireClaim("PodeExecutar"));
+
+                options.AddPolicy("PodeLer", policy => policy.Requirements.Add(new PermissaoNecessaria("PodeLer")));
+                options.AddPolicy("PodeGravar", policy => policy.Requirements.Add(new PermissaoNecessaria("PodeGravar")));
             });
+
+            services.AddSingleton<IAuthorizationHandler, PermissaoNecessariaHandler>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
