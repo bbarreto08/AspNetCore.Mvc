@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Mvc.Site", "src\AspNetCore.Mvc.Modelo\AspNetCore.Mvc.Site.csproj", "{7DA6C6E2-A3B3-46B4-B6F2-7C061A6324B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreIdentity", "AspNetCoreIdentity\AspNetCoreIdentity.csproj", "{E7B89DA6-EA41-408B-B169-22B39568F126}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreIdentity", "src\AspNetCoreIdentity\AspNetCoreIdentity.csproj", "{E7B89DA6-EA41-408B-B169-22B39568F126}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
