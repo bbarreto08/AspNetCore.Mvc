@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yttuiruHzbTVIBdIV+fp/us9gpuTMCZRNX0XaQvMfd+zLUY4DJbFKkPcVC1hj+ZZiz7nMjW8a43gA/8UoLiYuA==",
+  "dgSpecHash": "ZtnA5o++aMY+cQkE1qYK+5ZBWyKVlcGhdevnzmmeeEWWVb5BG5ld9o5Epp4Dod/wwZ+Oqj8iP2zjItsAHeZR6A==",
   "success": true,
-  "projectFilePath": "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
+  "projectFilePath": "C:\\Git\\AspNetCore.Mvc\\src\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

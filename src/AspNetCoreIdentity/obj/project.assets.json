@@ -12980,11 +12980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
+      "projectUniqueName": "C:\\Git\\AspNetCore.Mvc\\src\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
       "projectName": "AspNetCoreIdentity",
-      "projectPath": "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
+      "projectPath": "C:\\Git\\AspNetCore.Mvc\\src\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\AspNetCore.Mvc\\AspNetCoreIdentity\\obj\\",
+      "outputPath": "C:\\Git\\AspNetCore.Mvc\\src\\AspNetCoreIdentity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

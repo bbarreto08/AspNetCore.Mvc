@@ -25,4 +25,14 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Content Update="appsettings - Copy.Staging.Development.json">
+      <DependentUpon>appsettings.Staging.Development.json</DependentUpon>
+    </Content>
+    <Content Update="appsettings - Copy.Staging.json">
+      <DependentUpon>appsettings.Staging.json</DependentUpon>
+    </Content>
+  </ItemGroup>
+
 </Project>
