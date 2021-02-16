@@ -33,25 +33,54 @@ namespace AspNetCoreIdentity.Controllers
         [Authorize(Policy = "PodeExecutar")]
         public IActionResult SecretClaim()
         {
-            return View("Secret");
+            return View();
         }
 
         [Authorize(Policy = "PodeGravar")]
         public IActionResult SecretClaimGravar()
         {
-            return View("Secret");
+            return View();
         }
 
         [ClaimsAuthorize("Produto", "Ler")]
         public IActionResult ClaimsCustom()
         {
-            return View("Secret");
+            return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [Route("erro/{id:length(3,3)}")]
+        public IActionResult Error(int id)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var modelErro = new ErrorViewModel();
+
+            switch (id)
+            {
+                case 500:
+                    modelErro.Mensagem = "Erro interno";
+                    modelErro.Titulo = "Ocorreu um erro";
+                    modelErro.ErrorCode = id;
+                    break;
+
+                case 404:
+                    modelErro.Mensagem = "Página não emcontrada";
+                    modelErro.Titulo = "Página não emcontrada";
+                    modelErro.ErrorCode = id;
+                    break;
+
+                case 403:
+                    modelErro.Mensagem = "Não possui permissão para esta ação";
+                    modelErro.Titulo = "Não autorizado";
+                    modelErro.ErrorCode = id;
+                    break;
+
+                default:
+                    modelErro.Mensagem = "Página não emcontrada";
+                    modelErro.Titulo = "Página não emcontrada";
+                    modelErro.ErrorCode = id;
+                    break;
+            }
+
+            return View("Error", modelErro);
         }
     }
 }

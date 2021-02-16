@@ -1,0 +1,23 @@
+﻿@using AspNetCoreIdentity.Extensions
+@{
+    ViewData["Title"] = "Secreta";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Essa página só acessa quem tem uma das Claims ("Produto" ou "Ler")</h1>
+</div>
+
+@{
+    if (this.IfClaim("Produto", "Adicionar"))
+    {
+        <p>Você só vê isso se tiver permissão de adicionar</p>
+    }
+}
+
+<div>
+    @Html.ActionLink("Secret", "Secret").IfClaimShow(Context, "Produto", "Adicionar")
+</div>
+
+<div>
+    <button class="btn btn-danger" @Html.Raw(this.IfClaimShow("Produto", "Adicionar"))>Excluir</button>
+</div>
