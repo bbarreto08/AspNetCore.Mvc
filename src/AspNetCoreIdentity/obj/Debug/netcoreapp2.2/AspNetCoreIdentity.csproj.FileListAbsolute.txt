@@ -107,7 +107,6 @@ C:\Git\AspNetCore.Mvc\src\AspNetCoreIdentity\bin\Debug\netcoreapp2.2\AspNetCoreI
 C:\Git\AspNetCore.Mvc\src\AspNetCoreIdentity\bin\Debug\netcoreapp2.2\AspNetCoreIdentity.pdb
 C:\Git\AspNetCore.Mvc\src\AspNetCoreIdentity\bin\Debug\netcoreapp2.2\AspNetCoreIdentity.Views.dll
 C:\Git\AspNetCore.Mvc\src\AspNetCoreIdentity\bin\Debug\netcoreapp2.2\AspNetCoreIdentity.Views.pdb
-C:\Git\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.csprojAssemblyReference.cache
 C:\Git\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.AssemblyInfoInputs.cache
 C:\Git\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.AssemblyInfo.cs
 C:\Git\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.csproj.CoreCompileInputs.cache
