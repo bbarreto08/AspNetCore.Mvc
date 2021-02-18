@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5s1TKLOHoGPsPT03irVUYUGmnJHs0mrEqgKTMvezBHNb1AeL0Rq+WN5BfSQpNhuWLG1TtUjrPogXXQ1vNCDQtg==",
+  "dgSpecHash": "CnPzSteW1a26TrDVoJRMzXcuAQ+lxpSIHwi+p3aIueO6YIzrjE4p8gSrkDNbDj77WoZqHyk1cJqRNiFjrwmY4Q==",
   "success": true,
   "projectFilePath": "D:\\GitPessoal\\AspNetCore.Mvc\\src\\AspNetCoreIdentity\\AspNetCoreIdentity.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Estudos\\.nuget\\packages\\elmah.io.aspnetcore\\3.11.17\\elmah.io.aspnetcore.3.11.17.nupkg.sha512",
+    "C:\\Users\\Estudos\\.nuget\\packages\\elmah.io.client\\3.10.10\\elmah.io.client.3.10.10.nupkg.sha512",
+    "C:\\Users\\Estudos\\.nuget\\packages\\elmah.io.extensions.logging\\3.9.12\\elmah.io.extensions.logging.3.9.12.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
@@ -176,6 +179,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\microsoft.rest.clientruntime.2.3.21.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.visualstudio.web.browserlink\\2.2.0\\microsoft.visualstudio.web.browserlink.2.2.0.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\2.2.4\\microsoft.visualstudio.web.codegeneration.2.2.4.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\2.2.4\\microsoft.visualstudio.web.codegeneration.contracts.2.2.4.nupkg.sha512",

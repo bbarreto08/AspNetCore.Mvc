@@ -191,3 +191,6 @@ D:\GitPessoal\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspN
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.pdb
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.genruntimeconfig.cache
 D:\GitPessoal\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\AspNetCoreIdentity.csproj.CopyComplete
+D:\GitPessoal\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\Razor\Views\Home\ClaimsCustom.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\Razor\Views\Home\SecretClaim.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc\src\AspNetCoreIdentity\obj\Debug\netcoreapp2.2\Razor\Views\Home\SecretClaimGravar.cshtml.g.cs

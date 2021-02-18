@@ -1,7 +1,9 @@
 ﻿using AspNetCoreIdentity.Extensions;
 using AspNetCoreIdentity.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,13 +14,13 @@ namespace AspNetCoreIdentity.Controllers
 {
     [Authorize]
     public class HomeController : Controller
-    {
+    {                        
         [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
         }
-        
+
         public IActionResult Privacy()
         {
             return View();

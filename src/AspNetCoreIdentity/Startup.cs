@@ -1,9 +1,13 @@
 ﻿using AspNetCoreIdentity.Config;
+using AspNetCoreIdentity.Extensions;
+using Elmah.Io.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Linq;
 
 namespace AspNetCoreIdentity
 {
@@ -33,6 +37,24 @@ namespace AspNetCoreIdentity
             services.AddAuthorizationConfig();
             services.ResolveDependencies();
 
+            services.AddElmahIo(o =>
+            {
+                o.ApiKey = "b7b67f8dbab144cfb306a11006ceaf5e";
+                o.LogId = new Guid("845ed2ed-e5e8-48ca-9da2-ee68216f226a");
+
+                o.LogId = Guid.NewGuid();
+                o.OnMessage = message =>
+                {
+                    message.Version = "1.0";
+
+                    var item = message.ServerVariables.FirstOrDefault(x => x.Key == "Secret-Key");
+                    if (item != null)
+                    {
+                        message.ServerVariables.Remove(item);
+                    }
+                };
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -48,6 +70,8 @@ namespace AspNetCoreIdentity
                 app.UseStatusCodePagesWithRedirects("/erro/{0}");
                 app.UseHsts();
             }
+
+            app.UseElmahIo();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

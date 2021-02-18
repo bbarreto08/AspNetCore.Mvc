@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v2.2": {
       "AspNetCoreIdentity/1.0.0": {
         "dependencies": {
+          "Elmah.Io.AspNetCore": "3.11.17",
+          "Elmah.Io.Extensions.Logging": "3.9.12",
           "Microsoft.AspNetCore": "2.2.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
@@ -44,6 +46,51 @@
         },
         "compile": {
           "AspNetCoreIdentity.dll": {}
+        }
+      },
+      "Elmah.Io.AspNetCore/3.11.17": {
+        "dependencies": {
+          "Elmah.Io.Client": "3.10.10",
+          "Microsoft.AspNetCore.Http": "2.2.0",
+          "Microsoft.Extensions.Hosting": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elmah.Io.AspNetCore.dll": {
+            "assemblyVersion": "3.11.17.0",
+            "fileVersion": "3.11.17.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Elmah.Io.AspNetCore.dll": {}
+        }
+      },
+      "Elmah.Io.Client/3.10.10": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.21"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elmah.Io.Client.dll": {
+            "assemblyVersion": "3.10.10.0",
+            "fileVersion": "3.10.10.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Elmah.Io.Client.dll": {}
+        }
+      },
+      "Elmah.Io.Extensions.Logging/3.9.12": {
+        "dependencies": {
+          "Elmah.Io.Client": "3.10.10",
+          "Microsoft.Extensions.Logging": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll": {
+            "assemblyVersion": "3.9.12.0",
+            "fileVersion": "3.9.12.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -79,6 +126,20 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.CodeAnalysis.Workspaces.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.21.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
         }
       },
       "Microsoft.VisualStudio.Web.BrowserLink/2.2.0": {
@@ -3571,6 +3632,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Elmah.Io.AspNetCore/3.11.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pJ/5FGuP5mqBjhlHqnK8KbHTmTVas3+SJn+q5gs7dihlJCsf5v+t7kYOmvlndrsGmS12JUNOJV3Y0nGisB3Smw==",
+      "path": "elmah.io.aspnetcore/3.11.17",
+      "hashPath": "elmah.io.aspnetcore.3.11.17.nupkg.sha512"
+    },
+    "Elmah.Io.Client/3.10.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBijnDYboo/SaDHtIKBtcIytLpi8aM4AKhSOAtBbOXAZmIGJWPUrAdq18T3KI0KDLJNrdbucOoIiFPrZ14n++g==",
+      "path": "elmah.io.client/3.10.10",
+      "hashPath": "elmah.io.client.3.10.10.nupkg.sha512"
+    },
+    "Elmah.Io.Extensions.Logging/3.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YWqc+sn/IbarsAA1sFp9TlaC0Ne8Ik9bgs+CnGtOw3d1WbS8at7D+4yWrqePsZWpmOrVrm0D9SCEZ14Paqg2uw==",
+      "path": "elmah.io.extensions.logging/3.9.12",
+      "hashPath": "elmah.io.extensions.logging.3.9.12.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3584,6 +3666,13 @@
       "sha512": "sha512-tJlJ99SD8bHBAXShOG/pXQ1K118cnsF01obEf9aAtdgLbw3yEPahZ7qvWeGMjrheUhvOsSkv/wTKYg9euKa8MQ==",
       "path": "microsoft.codeanalysis.workspaces.common/2.8.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.2.8.0.nupkg.sha512"
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KDYlgTyO693V6pi6SGk9eg+dDvKjuOgmkapbHdpnB1SmTPKpvWxVLIMyARJsCFLfB6axyURUJHOfvxBQ0yJKeg==",
+      "path": "microsoft.rest.clientruntime/2.3.21",
+      "hashPath": "microsoft.rest.clientruntime.2.3.21.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.BrowserLink/2.2.0": {
       "type": "package",
